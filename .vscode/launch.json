@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/ConsoleApp/bin/Debug/net7.0/ConsoleApp.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/ConsoleApp",
+            // Needs to be terminal to be able to take input.
+            "console": "integratedTerminal",
+            // Needs to be true to be able to see the output/input on the terminal since it's not in the debug console anymore.
+            "externalConsole": true,            
+            "stopAtEntry": false,
+        }
+    ]
+}

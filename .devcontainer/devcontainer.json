@@ -1,0 +1,12 @@
+{
+	"name": "C# (.NET)",
+	"image": "mcr.microsoft.com/devcontainers/dotnet:0-7.0",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot",
+				"ms-dotnettools.csharp"
+			]
+		}
+	}
+}
